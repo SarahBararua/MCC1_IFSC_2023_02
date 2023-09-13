@@ -11,6 +11,7 @@ Utilizando um robô capaz de fazer o transporte autônomo de forma inteligente p
 * Aumento na capacidade de transporte: ...;
 * Redução de danos: ...;
 
+
 Alguns possíveis benefícios mais gerais também podem surgir da automação de aumtomóveis e/ ou robôs, sendo elas:
 
 * Acessibilidade e autossuficiencia: Pessoas com mobilidade reduzida e pessoas de idade avançada que não poderiam dirigir, teriam acesso á carros.
@@ -20,15 +21,16 @@ Alguns possíveis benefícios mais gerais também podem surgir da automação de
 * Velocidade: Carros autônomos, se conectados em rede, poderiam diminuir expressivamente congestionamentos. Além disso, não precisam estacionar por perto, poderiam simplesmente ir embora e voltar quando preciso, ou estacionar mais longe, procurando vagas sózinho;
 * Economia e sustentabilidade: Com menos filas, menos combustível ou energia seriam gastos;
 
+
 ## REQUISITOS DE PROJETO
 Nosso projeto visa exemplificar a implementação de um sistema de transporte utilizando o carro autônomo desenvolvido pelo LPAE. Os seguintes requisitos de projeto foram estabelecidos:
 
-* Modo de operação **manual**;
-* Modo de operação **Seguidor de linha**;
-* Modo de operação **piloto automático**;
-* Deve desviar de objetos;
-* Deve ter comunicação com uma central(celular);
-* Monitoramento da bateria;
-* Monitoramento da posição atual do veículo.
+1. O veículo deve conseguir se comunicar com o dispositivo de controle de forma remota;
+2. Monitorar e enviar o status de sua posição atual para o dispositivo de controle.
+3. Deve ter modo de operação **manual**;
+4. Deve ter modo de operação **Seguidor de linha**;
+5. Deve ter modo de operação **piloto automático**;
+6. Deve desviar de objetos;
+7. Monitoramento da bateria;
 
 
