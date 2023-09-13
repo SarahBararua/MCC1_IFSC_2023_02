@@ -27,8 +27,8 @@ Nosso projeto visa exemplificar a implementação de um sistema de transporte ut
 * Modo de operação **Seguidor de linha**;
 * Modo de operação **piloto automático**;
 * Deve desviar de objetos;
+* Deve ter comunicação com uma central(celular);
+* Monitoramento da bateria;
+* Monitoramento da posição atual do veículo.
 
-Com sistema de navegação inteligente para desviar de obstáculos e comunicação direto com uma central de comando, nesse caso o celular. 
-
-Além de monitoramento da bateria e da posição atual do veículo.
 
