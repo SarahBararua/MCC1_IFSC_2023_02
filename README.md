@@ -6,7 +6,7 @@ Com base na proposta da unidade curricular de Microcontroladores I, foi definido
 
 **2. CONCEPÇÃO**
 
-Nesta etapa, nosso foco é desenvolver uma fechadura eletrônica que ofereça segurança e confiabilidade ao usuário. Para atingir esse objetivo, definimos os requisitos e os meios para alcançar nossos objetivos, que incluem:
+Nesta etapa, a finalizade é definir os requisitos e os meios para alcançar nossos objetivos que é o desenvolvimento de uma fechadura eletrônica que ofereça segurança e confiabilidade ao usuário. Para isso, estruturamos quais serão as condições e tecnologias aplicadas ao projeto:
 
 - **Módulo de Controle e Sensores:**
   O núcleo deste projeto reside no uso do microcontrolador FRDM-KL05Z da Freescale com instruções pré-programadas para gerenciar todos os sensores e interfaces.
