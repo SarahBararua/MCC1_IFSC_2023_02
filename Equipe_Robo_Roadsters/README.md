@@ -13,7 +13,6 @@ Utilizando um robô capaz de fazer o transporte autônomo de forma inteligente p
 * Aumento na capacidade de transporte: Carrinhos autônomos podem ser programados para trabalhar em conjunto e otimizar rotas, aumentando a capacidade de transporte da indústria;
 * Redução de danos: A automação pode ajudar a reduzir danos a produtos durante o transporte, pois os carrinhos autônomos podem ser programados para evitar solavancos, choques e outros movimentos bruscos;
 
-
 Alguns possíveis benefícios mais gerais também podem surgir da automação de aumtomóveis e/ ou robôs, sendo elas:
 
 * Acessibilidade e autossuficiencia: Pessoas com mobilidade reduzida e pessoas de idade avançada que não poderiam dirigir, teriam acesso á carros.
@@ -56,4 +55,6 @@ Será necessário o desenvolvimento de um adaptador para compatibilidade do micr
 
 O microcontrolador utilizado será o KL05Z, requisito obrigatório para a aplicação.
 
+Figura 1 - Diagrama de Blocos do Projeto
+![](https://github.com/ciceroed/MCC1_IFSC_2023_02/blob/main/Equipe_Robo_Roadsters/Diagrama%20de%20Blocos.jpg)
 
