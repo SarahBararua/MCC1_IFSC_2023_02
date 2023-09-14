@@ -32,7 +32,7 @@ Nesta etapa, a finalizade é definir os requisitos e os meios para alcançar nos
 - **Fonte de Alimentação:**
   A fechadura operará com uma fonte de alimentação de corrente contínua de 12V.
 
-O objetivo principal deste projeto é criar um sistema de controle dinâmico que utilize diversas plataformas de acesso, tornando a comunicação com o usuário mais eficaz e aumentando a segurança. No decorrer do projeto, detalharemos as tecnologias específicas a serem implementadas em cada uma dessas interfaces.
+Com base nas tecnologias propostas, o objetivo final deste projeto é criar um sistema de controle dinâmico que utilize diversas plataformas de acesso, tornando a comunicação com o usuário mais eficaz e aumentando a segurança. No decorrer do documento, detalharemos as tecnologias específicas a serem implementadas em cada uma dessas interfaces.
 
 Tabela de requisitos:
 
