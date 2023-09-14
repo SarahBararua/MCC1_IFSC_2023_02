@@ -31,3 +31,4 @@ Este projeto tem como objetivo o desenvolvimento de um sistema de automação re
  
 Essas tecnologias são essenciais para criar um sistema de automação residencial que ofereça funcionalidade, facilidade de uso e eficiência energética. A integração harmoniosa desses elementos permite que os moradores controlem e personalizem seus ambientes de maneira conveniente e eficaz.
 
+### Equipe: Leonardo e Cainã
