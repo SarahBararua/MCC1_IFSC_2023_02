@@ -34,3 +34,20 @@ Nosso projeto visa exemplificar a implementação de um sistema de transporte ut
 7. Monitoramento da bateria;
 
 
+## TECNOLOGIAS EMPREGADAS
+
+O controle do carrinho será feito utilizando um aplicativo para celular android. A comunicação entre o carrinho e o celular ocorrerá a partir do módulo bluetooth HC-05 que utiliza comunicação serial UART.
+
+Para detectar obstáculos, serão utilizados os sensores de proximidade ultrassônicos HC-SR04, por serem acessíveis e fáceis para a aplicação. 
+
+O sistema de odometria que monitora a posição do veículo e permite que ele se movimente até uma coordenada de entrada será implementado utilizando uma fusão de sensores, sendo eles: Sensores de posição, encoders e uma IMU (Inertial Measurements Units) composta por giroscópio e acelerômetro.
+
+O controle manual será empregado diretamente pelo aplicativo android no celular e os comandos serão enviados via bluetooth.
+
+O monitoramente da bateria será feito utilizando um amplificador com ganho de 1/3 conectado ao ADC do microcontrolador. 
+
+Para seguir a linha será utilizado um arranjo com dois sensores de linha.
+
+Será necessário o desenvolvimento de um adaptador para compatibilidade do microcontrolador com a placa de potência do veículo.
+
+
