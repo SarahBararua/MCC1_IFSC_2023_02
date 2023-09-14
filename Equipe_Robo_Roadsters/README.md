@@ -55,8 +55,8 @@ Será necessário o desenvolvimento de um adaptador para compatibilidade do micr
 
 O microcontrolador utilizado será o KL05Z, requisito obrigatório para a aplicação.
 
-  
-<center> Figura 1 - Diagrama de Blocos do Projeto
+
+<center>Figura 1 - Diagrama de Blocos do Projeto
 
 <div align="center">
 
