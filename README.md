@@ -207,7 +207,7 @@ FRDM-KL05Z.
     *   Timer de baixo consumo de 16-bits;
     * Timers de Interrupção Periódica.
   
-![](https://www.nxp.com/assets/images/en/dev-board-image/FRDM-KL05Z-ANGLE.jpg)
+![](https://www.makerhero.com/wp-content/uploads/2017/07/FRDM-KL05Z.jpg)
 
 ### 3.7 Módulo Relé
 Relé 2 Canais JQC-3FF-S-Z.
