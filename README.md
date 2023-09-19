@@ -2,14 +2,14 @@
 
 ## 1. PROPOSTA
 
-Com base na proposta da unidade curricular de Microcontroladores I, foi definido a criação de um projeto de uma fechadura eletrônica. Este projeto seguirá a metodologia CDIO, uma abordagem composta por quatro etapas essenciais: Concepção, Design, Implementação e Operação, as quais serão detalhadas ao longo deste documento.
+Com base na proposta da unidade curricular de Microcontroladores I, foi definido a criação de um projeto de uma fechadura eletrônica inteligente utilizando como módulo de controle o microcontrolador FRDM-KL05Z. Este projeto seguirá a metodologia CDIO, uma abordagem composta por quatro etapas essenciais: Concepção, Design, Implementação e Operação, as quais serão detalhadas ao longo deste documento.
 
 ## 2. CONCEPÇÃO
 
-Nesta etapa, a finalizade é definir os requisitos e os meios para alcançar nossos objetivos que é o desenvolvimento de uma fechadura eletrônica que ofereça segurança e confiabilidade ao usuário. Para isso, estruturamos as condições e tecnologias que serão aplicadas ao projeto:
+Nesta etapa, a finalidade definir os requisitos e meios para o desenvolvimento de uma fechadura eletrônica que ofereça segurança e confiabilidade ao usuário. Para isso, estruturamos as condições e tecnologias que serão aplicadas ao projeto:
 
 - **Módulo de Controle e Sensores:**
-  O núcleo deste projeto reside no uso do microcontrolador FRDM-KL05Z da Freescale com instruções pré-programadas para gerenciar todos os sensores e interfaces.
+  O núcleo deste projeto reside no uso do microcontrolador FRDM-KL05Z da NPX com instruções pré-programadas para gerenciar todos os sensores e interfaces.
 
 - **Fechadura Eletrônica:**
   Será utilizada uma fechadura eletrônica pronta que é acionada com parâmetros de tensão e corrente pré-definidos.
@@ -52,17 +52,17 @@ ____________
 ## 3. DESIGN
 
 
-No design especificaremos os modelos para cada tipo de tecnologia, suas conexões com módulo de comando e os componentes adicionais necessários para o funcionamento do circuito.
+No design especificaremos os modelos e especificações para cada tipo de tecnologia , suas interações com o módulo de controle e os componentes adicionais indispensáveis para o circuito operar corretamente.
   ____________
 MODELO:| PREÇO (R$): |
 ---------|----------| 
 Leitor RFID RDM6300 125KHz.|25,00 |
 Módulo Bluetooth RS 232 HC-05. | 39,90 | 
 Buzzer Ativo 5V. | 3,90 | 
-Display gráfico 2.4 TFT - ILI9341. |56,10 | 
-Leitor Biométrico impressão digital Dymore FPM10A DY50 | 110,00 |
+Display Gráfico 2.4 TFT - ILI9341. |56,10 | 
+Leitor Biométrico impressão digital Dymore FPM10A DY50. | 110,00 |
 Microcontrolador FRDM-KL05Z.| 118,00 |
-Relé 2 Canais JQC-3FF-S-Z | 15,00 |
+Relé 2 Canais JQC-3FF-S-Z. | 15,00 |
 Resistor 220Ω 5% 1/4W. | 0,10 |
 Resistor 100Ω 5% 1/4W.| 0,10| 
   ____________
@@ -235,6 +235,7 @@ Relé 2 Canais JQC-3FF-S-Z.
 * Resistor 220Ω 5% 1/4W;
 * Resistor 100Ω 5% 1/4W.
 
-![](https://m.media-amazon.com/images/I/51bIJ5jN+nL._AC_UF350,350_QL80_.jpg)
+![](https://res.cloudinary.com/rsc/image/upload/b_rgb:FFFFFF,c_pad,dpr_1.0,f_auto,q_auto,w_700/c_pad,w_700/R0131772-01)
 
 ### 3.9 Componentes e Conexões
+
