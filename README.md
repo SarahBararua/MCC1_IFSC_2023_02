@@ -48,3 +48,4 @@ Tabela de requisitos:
 | Fechadura                            | Fechadura Eletrônica      | 1          |` 
 ____________
 
+**3. DESIGN**
