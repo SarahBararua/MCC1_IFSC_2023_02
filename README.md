@@ -235,7 +235,6 @@ Relé 2 Canais JQC-3FF-S-Z.
 * Resistor 220Ω 5% 1/4W;
 * Resistor 100Ω 5% 1/4W.
 
-![](https://images.tcdn.com.br/img/img_prod/557243/resistor_220r_1_4w_811_1_b98b9f5666c89244228a390aa13bdbfc.png)
+![](https://m.media-amazon.com/images/I/51bIJ5jN+nL._AC_UF350,350_QL80_.jpg)
 
 ### 3.9 Componentes e Conexões
-
