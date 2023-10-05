@@ -1,12 +1,11 @@
 # CONCEPÇÃO DO PROJETO
 
-Vivemos em uma época em que muitos problemas foram solucionados pela tecnologia, e muitos outros ainda nos incomodam como uma pedra no sapato. É a era da revolução digital, eletrônica e mecânica, portanto, continuamos a buscar mais e mais soluções tecnológicas. Um exemplo é a ascensão da indústria 4.0 e o uso da IoT dentro das empresas que trouxe grandes melhorias para os processos industriais. 
-Pensando na produção de larga escala, uma etapa muito importante é o transporte de produtos e materiais. 
-Utilizando um robô capaz de fazer o transporte autônomo de forma inteligente podemos obter grandes vantagens, sendo elas:
+Vivemos em uma época em que muitos problemas foram solucionados pela tecnologia, e muitos outros ainda nos incomodam como uma pedra no sapato. É a era da revolução digital, eletrônica e mecânica, portanto, continuamos a buscar mais e mais soluções tecnológicas. A ascensão da indústria 4.0 e o uso da IoT dentro das empresas que trouxe grandes melhorias para os processos industriais e, pensando na produção de larga escala, o transporte de produtos e materiais é uma etapa muito importante que merece atenção. 
+Utilizando um robô capaz de fazer o transporte autônomo de forma inteligente, podemos obter grandes vantagens, sendo elas:
 
-* Eficiência operacional: Carrinhos podem operar de forma contínua sem tempo de descanso;
-* Redução de custos de mão de obra: A automação do transporte elimina a necessidade de trabalhadores para realizar tarefas de transporte manual, economizando em custos de mão de obra e potencialmente reduzindo erros humanos;
-* Segurança: Carrinhos autônomos são projetados com sensores avançados que podem detectar obstáculos e evitar colisões, tornando o transporte mais seguro para os funcionários e equipamentos;
+* Eficiência operacional: Carrinhos podem operar de forma contínua, sem tempo de descanso;
+* Redução de custos de mão de obra: A automação do transporte elimina a necessidade de trabalhadores realizarem tarefas de transporte manual, economizando em custos de mão de obra e potencialmente reduzindo erros humanos;
+* Segurança: Carrinhos autônomos são projetados com sensores avançados que podem detectar obstáculos e evitar colisões, tornando o transporte mais seguro para os funcionários e  os equipamentos;
 * Precisão: Esses carrinhos podem ser programados para seguir trajetórias precisas, o que é particularmente útil em ambientes industriais onde é essencial evitar danos aos produtos durante o transporte;
 * Flexibilidade: Os carrinhos autônomos podem ser reprogramados ou reconfigurados rapidamente para se adaptar a mudanças nas necessidades de transporte da indústria;
 * Rastreamento e monitoramento: Muitos sistemas autônomos são equipados com tecnologia de rastreamento e monitoramento, permitindo que os gerentes de operações acompanhem a localização e o status dos carrinhos em tempo real;
@@ -19,7 +18,7 @@ Alguns possíveis benefícios mais gerais também podem surgir da automação de
 * Segurança e patrulhamento: Carros autônomos ou com uma rota prédifinida podem fazer patrulhas de monitoramento e fiscalização;
 * Conforto: Pessoas embriagadas ou cansadas não precisariam dirigir;
 * Acidentes: A maioria dos acidentes ocorrem por falha humana;
-* Velocidade: Carros autônomos, se conectados em rede, poderiam diminuir expressivamente congestionamentos. Além disso, não precisam estacionar por perto, poderiam simplesmente ir embora e voltar quando preciso, ou estacionar mais longe, procurando vagas sózinho;
+* Velocidade: Carros autônomos, se conectados em rede, poderiam diminuir expressivamente congestionamentos. Além disso, não precisam estacionar por perto, poderiam simplesmente ir embora e voltar quando preciso, ou estacionar mais longe, procurando vagas sozinho;
 * Economia e sustentabilidade: Com menos filas, menos combustível ou energia seriam gastos;
 
 
