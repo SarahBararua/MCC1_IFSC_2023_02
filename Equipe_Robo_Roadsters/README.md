@@ -1,6 +1,7 @@
 # CONCEPÇÃO DO PROJETO
 
 Vivemos em uma era de soluções cada vez mais complexas para problemas cada vez mais específicos. É a era da revolução digital, eletrônica e mecânica, portanto, desenvolvemos soluções cada vez mais complexas e/ou precisas para atender as especificidades dos problemas. A ascensão da indústria 4.0 e o uso de IoT dentro das empresas é um exemplo e trouxe grandes melhorias para os processos industriais.
+
 Pensando na produção de larga escala, o transporte de produtos e materiais é uma etapa muito importante que merece atenção. 
 Utilizando um robô capaz de fazer o transporte autônomo de forma inteligente, podemos obter grandes vantagens, sendo elas:
 
@@ -12,16 +13,6 @@ Utilizando um robô capaz de fazer o transporte autônomo de forma inteligente, 
 * Rastreamento e monitoramento: Muitos sistemas autônomos são equipados com tecnologia de rastreamento e monitoramento, permitindo que os gerentes de operações acompanhem a localização e o estado dos carrinhos em tempo real;
 * Aumento na capacidade de transporte: Carrinhos autônomos podem ser programados para trabalhar em conjunto e otimizar rotas, aumentando a capacidade de transporte da indústria;
 * Redução de danos: A automação pode ajudar a reduzir danos a produtos durante o transporte, pois os carrinhos autônomos podem ser programados para evitar solavancos, choques e outros movimentos bruscos;
-
-Alguns possíveis benefícios mais gerais também podem surgir da automação de automóveis e/ou robôs, sendo elas:
-
-* Acessibilidade e autossuficiência: pessoas com mobilidade reduzida e pessoas de idade avançada que não poderiam dirigir, teriam acesso a carros.
-* Segurança e patrulhamento: Carros autônomos ou com uma rota pré-definida podem fazer patrulhas de monitoramento e fiscalização;
-* Conforto: Pessoas embriagadas ou cansadas não precisariam dirigir;
-* Acidentes: A maioria dos acidentes ocorre por falha humana;
-* Velocidade: Carros autônomos, se conectados em rede, poderiam diminuir expressivamente congestionamentos. Além disso, não precisam estacionar por perto, poderiam simplesmente voltar quando preciso, ou estacionar mais longe, procurando vagas sozinho;
-* Economia e sustentabilidade: Com menos filas, menos combustível ou energia seriam gastos;
-
 
 ## REQUISITOS DE PROJETO
 Mantido pelo LPAE(Laboratório de Pesquisa Avançada em Eletrônica) do IFSC(Instituto Federal de Santa Catarina), buggies em miniatura são utilizados didaticamente para professores ministrerem algumas matérias. O projeto base é mantido no repositório [**automated_buggy**](https://github.com/xtarke/automated_buggy), contendo um esquema elétrico de uma placa de potência e um de um shield que faz a adaptação dos sinais para um Arduino Uno.
@@ -49,7 +40,7 @@ Nosso projeto visa exemplificar a implementação de um sistema de transporte co
   
 * O controle manual será empregado diretamente pelo aplicativo android no celular e os comandos serão enviados via bluetooth.
 
-* Para seguir a linha será utilizado um arranjo com dois sensores de linha.
+* Para seguir a linha será utilizado um arranjo com dois sensores de linha, dando a possibilidade de programar o buggy para compensar a trajetória caso um dos sensores deixe de enxergar a linha.
 
 * Será utilizado um sistema de controle PID para permitir que o carrinho se movimente até a coordenada passada de forma precisa.
 
@@ -62,14 +53,16 @@ Nosso projeto visa exemplificar a implementação de um sistema de transporte co
 * O microcontrolador utilizado será o KL05Z, requisito obrigatório para a aplicação.
 
 ## DIAGRAMA DE BLOCOS
+
+A imagem abaixo exemplifica, de forma simplificada, o que foi descrito no tópico "Tecnologias Empregadas". Podemos verificar como cada periférico irá se comunicar com o microcontrolador e a comunicação com a interface para o usuário. Além do controle dos motores por meio de ponte H e a realimentação da posição a partir dos encoders. 
+
 <p align=center> 
 Figura 1 - Diagrama de Blocos do Projeto 
 </p>
 
 <div align="center">
 
+
 ![Diagrama de Blocos](https://github.com/ciceroed/MCC1_IFSC_2023_02/blob/main/Equipe_Robo_Roadsters/Diagrama%20de%20Blocos.jpg)
 
 </div>
-
-A imagem acima exemplifica, de forma simplificada, o que foi descrito no tópico "Tecnologias Empregadas". Podemos verificar como cada periférico irá se comunicar com o microcontrolador e a comunicação com a interface para o usuário. Além do controle dos motores por meio de ponte H e a realimentação da posição a partir dos encoders. 
