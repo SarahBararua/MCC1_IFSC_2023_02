@@ -1,8 +1,8 @@
-#Estrutura de Funcionamento 
+# Estrutura de Funcionamento 
 
 Conforme já explicado serão implementados dois módulos de controle, um para a sala e outro para o quarto, sendo que a comunicação entre eles será via UART. 
 
-
+![Logo do Markdown](https://i.im.ge/2023/10/13/PCYkyF.diagramaBlocos.png)
 
 **Módulos por cômodo** 
 
@@ -68,21 +68,20 @@ PTA7 -> SPIO_MOSI ALT3
 
 
 
-
-
+![Logo do Markdown](https://i.im.ge/2023/10/13/PCYzzK.kl05z.png)
 
 
 **PWM**
 
 Como módulo para comunicação PWM será usado um circuito com dois transistores a fim de controlar uma maior potência será usado um Mosfet como alimentação para as luminárias LED. Sendo assim o microcontrolador irá através do PWM controlar a tensão de saída do Mosfet resultado o controle da intensidade luminosa dos LEDs. 
 
-
+![Logo do Markdown](https://i.im.ge/2023/10/13/PCYBhM.pwm.png)
 
 **Ponte H**
 
 Como módulo de controle para os motores será usado uma ponte H com transistores, o que permitirá acionar o motor para os dois lados, aplicando as funcionalidades de abrir e fechar as cortinas. 
 
-
+![Logo do Markdown](https://i.im.ge/2023/10/13/PCYGYY.ponteH.png)
 
 **Rele**
 
@@ -91,19 +90,19 @@ Como módulo responsável pelo controle do ventilador e da tomada tem-se o módu
 
 
 
-
+![Logo do Markdown](https://i.im.ge/2023/10/13/PCYeBD.rele.png)
 **LDR**
 
 Como módulo responsável por captar a variação da iluminação será implementado um LDR, que opera como um resistor sensível à luz. O circuito para funcionamento do LDR é bem simples, operando com um divisor de tensão entre um resistor fixo e o LDR, a medida em que a intensidade da luz aumenta a resistência do LDR cai mudando assim a queda de tensão que está sendo monitorada por um ADC. 
 
-
+![Logo do Markdown](https://i.im.ge/2023/10/13/PCbQs4.ldr.png)
 **LM35**
 
 Como módulo responsável por captar as mudanças de temperatura será implementado um módulo usando o LM35, um transistor sensível à temperatura. Onde para cada 0,5ºC a tensão de saída oscila 10mV. 
 
 
 
-
+![Logo do Markdown](https://i.im.ge/2023/10/13/PCboHq.lm35.png)
 
 
 
@@ -187,5 +186,4 @@ O código pode ser melhorado adicionando um menu de opções para o usuário.
 O código pode ser melhorado adicionando suporte para outros tipos de displays LCD.
 O código pode ser melhorado adicionando suporte para outros elementos gráficos do lvgl.
 Espero que este código seja útil.
-
 
