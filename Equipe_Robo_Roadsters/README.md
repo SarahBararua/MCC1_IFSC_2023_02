@@ -1,4 +1,20 @@
-# CONCEPÇÃO DO PROJETO
+![Logo do IFSC](https://github.com/ciceroed/MCC1_IFSC_2023_02/blob/main/Equipe_Robo_Roadsters/ifsc_logo.png)
+
+# ROBOROADSTERS
+<p align=center>
+<strong>SUMÁRIO</strong>
+
+**1.    CONCEPÇÃO DO PROJETO**<p>
+**1.1   Requisitos do projeto**<p>
+**1.2   Tecnologias empregadas**<p>
+**1.3   Diagrama de blocos do projeto**<p>
+**2.    DESIGN DO PROJETO**<p>
+**2.1   Hardware**<p>
+**2.2   Software**<p>
+2.2.1   Máquina de estados<p>
+2.2.2 App de interface humana<p>
+
+# 1. CONCEPÇÃO DO PROJETO
 
 Vivemos em uma era de soluções cada vez mais complexas para problemas cada vez mais específicos. É a era da revolução digital, eletrônica e mecânica, portanto, desenvolvemos soluções cada vez mais complexas e/ou precisas para atender as especificidades dos problemas. A ascensão da indústria 4.0 e o uso de IoT dentro das empresas é um exemplo e trouxe grandes melhorias para os processos industriais.
 
@@ -14,7 +30,7 @@ Utilizando um robô capaz de fazer o transporte autônomo de forma inteligente, 
 * Aumento na capacidade de transporte: Carrinhos autônomos podem ser programados para trabalhar em conjunto e otimizar rotas, aumentando a capacidade de transporte da indústria;
 * Redução de danos: A automação pode ajudar a reduzir danos a produtos durante o transporte, pois os carrinhos autônomos podem ser programados para evitar solavancos, choques e outros movimentos bruscos;
 
-## REQUISITOS DE PROJETO
+## 1.1 Requisitos do projeto
 Mantido pelo LPAE(Laboratório de Pesquisa Avançada em Eletrônica) do IFSC(Instituto Federal de Santa Catarina), buggies em miniatura são utilizados didaticamente para professores ministrerem algumas matérias. O projeto base é mantido no repositório [**automated_buggy**](https://github.com/xtarke/automated_buggy), contendo um esquema elétrico de uma placa de potência e um de um shield que faz a adaptação dos sinais para um Arduino Uno.
 
 Nosso projeto visa exemplificar a implementação de um sistema de transporte controlado via app android, utilizando o projeto base do buggy desenvolvido pelo LPAE. Como usaremos o microcontrolador FRDM-KL05Z, será necessário aplicar adaptações na placa shield, a fim de ajustar as tenções de sinais e de alimentação nos pinos do microcontrolador. Os seguintes requisitos de projeto foram estabelecidos:
@@ -32,7 +48,7 @@ Nosso projeto visa exemplificar a implementação de um sistema de transporte co
 8. Monitoramento da bateria;
 
 
-## TECNOLOGIAS EMPREGADAS
+## 1.2 Tecnologias empregadas
 
 * O controle do carrinho será feito utilizando um aplicativo para celular android. A comunicação entre o carrinho e o celular ocorrerá a partir do módulo bluetooth HC-05 que utiliza comunicação serial UART.
 
@@ -52,17 +68,35 @@ Nosso projeto visa exemplificar a implementação de um sistema de transporte co
 
 * O microcontrolador utilizado será o KL05Z, requisito obrigatório para a aplicação.
 
-## DIAGRAMA DE BLOCOS
+## 1.3 Diagrama de blocos do projeto
 
 A imagem abaixo exemplifica, de forma simplificada, o que foi descrito no tópico "Tecnologias Empregadas". Podemos verificar como cada periférico irá se comunicar com o microcontrolador e a comunicação com a interface para o usuário. Além do controle dos motores por meio de ponte H e a realimentação da posição a partir dos encoders. 
 
 <p align=center> 
-Figura 1 - Diagrama de Blocos do Projeto 
+<strong>Figura 1 - Diagrama de Blocos do Projeto</strong>
 </p>
 
 <div align="center">
 
 
 ![Diagrama de Blocos](https://github.com/ciceroed/MCC1_IFSC_2023_02/blob/main/Equipe_Robo_Roadsters/Diagrama%20de%20Blocos.jpg)
+
+</div>
+
+# 2. DESING DO PROJETO
+
+## 2.1   Hardware
+## 2.2   Software
+Para o Software, foi desenvolvido uma máquina de estados levando em consideração os requisitos de projeto e um app para servir de interface entre o usuário e qualquer RoboRoadster.
+### 2.2.1   Máquina de estados
+### 2.2.2 App de interface humana
+
+O app RoboRoadster foi criado a partir do [**MIT app inventor**](https://ai2.appinventor.mit.edu/), um site com ambiente de desenvolvimento de aplicativos Android e IOS que permite criar apps com programação em blocos. O app permite escolher o RoboRoadster disponível para conectar-se via bluetooth e, posteriormente, escolher o modo de operação, seguidor de linha, automático ou teleoperado. Observe na figura 2, 3, 4 o processo descrito.
+
+<p align="center"><strong>Figura 2 - Tela inicial do app</strong></p>
+
+<div align="center">
+  
+![Tela inicial](https://github.com/ciceroed/MCC1_IFSC_2023_02/blob/main/Equipe_Robo_Roadsters/tela_inicial_app.png)
 
 </div>
