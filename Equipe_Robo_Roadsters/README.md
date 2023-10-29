@@ -91,12 +91,36 @@ Para o Software, foi desenvolvido uma máquina de estados levando em consideraç
 ### 2.2.1   Máquina de estados
 ### 2.2.2 App de interface humana
 
-O app RoboRoadster foi criado a partir do [**MIT app inventor**](https://ai2.appinventor.mit.edu/), um site com ambiente de desenvolvimento de aplicativos Android e IOS que permite criar apps com programação em blocos. O app permite escolher o RoboRoadster disponível para conectar-se via bluetooth e, posteriormente, escolher o modo de operação, seguidor de linha, automático ou teleoperado. Observe na figura 2, 3, 4 o processo descrito.
+O app RoboRoadster foi criado a partir do [**MIT app inventor**](https://ai2.appinventor.mit.edu/), um site com ambiente de desenvolvimento de aplicativos Android e IOS que permite criar apps com programação em blocos. O app permite escolher o RoboRoadster disponível para conectar-se via bluetooth e, posteriormente, escolher o modo de operação, seguidor de linha, automático ou teleoperado. Assim que escolhido um RoboRoadster para conectar-se, uma mensagem de bluetooth conectado surge e as opções de modo de operação são desbloqueadas. Observe na figura 2, 3, 4 o processo descrito.
 
 <p align="center"><strong>Figura 2 - Tela inicial do app</strong></p>
 
 <div align="center">
   
 ![Tela inicial](https://github.com/ciceroed/MCC1_IFSC_2023_02/blob/main/Equipe_Robo_Roadsters/tela_inicial_app.png)
+
+</div>
+
+<p align="center"><strong>Figura 3 - Tela de escolha do Roboroadster</strong></p>
+
+<div align="center">
+  
+![Tela de escolha do robo](https://github.com/ciceroed/MCC1_IFSC_2023_02/blob/main/Equipe_Robo_Roadsters/tela_escolha_dispositivo.png)
+
+</div>
+
+<p align="center"><strong>Figura 4 - Tela de escolha do modo de operação</strong></p>
+
+<div align="center">
+  
+![Tela de escolha do modo](https://github.com/ciceroed/MCC1_IFSC_2023_02/blob/main/Equipe_Robo_Roadsters/tela_escolha_modo.png)
+
+</div>
+
+<p align="center"><strong>Figura 5 - Tela de modo automatico</strong></p>
+
+<div align="center">
+  
+![Tela automatico](https://github.com/ciceroed/MCC1_IFSC_2023_02/blob/main/Equipe_Robo_Roadsters/tela_automatico_app.png)
 
 </div>
