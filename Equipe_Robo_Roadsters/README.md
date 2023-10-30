@@ -97,30 +97,60 @@ O app RoboRoadster foi criado a partir do [**MIT app inventor**](https://ai2.app
 
 <div align="center">
   
-![Tela inicial](https://github.com/ciceroed/MCC1_IFSC_2023_02/blob/main/Equipe_Robo_Roadsters/tela_inicial_app.png)
+<img src="https://github.com/ciceroed/MCC1_IFSC_2023_02/blob/main/Equipe_Robo_Roadsters/tela_inicial_app.png" width="40%">
 
 </div>
+
+<br>
 
 <p align="center"><strong>Figura 3 - Tela de escolha do Roboroadster</strong></p>
 
 <div align="center">
   
-![Tela de escolha do robo](https://github.com/ciceroed/MCC1_IFSC_2023_02/blob/main/Equipe_Robo_Roadsters/tela_escolha_dispositivo.png)
+<img src="https://github.com/ciceroed/MCC1_IFSC_2023_02/blob/main/Equipe_Robo_Roadsters/tela_escolha_dispositivo.png" width="40%">
 
 </div>
+
+<br>
 
 <p align="center"><strong>Figura 4 - Tela de escolha do modo de operação</strong></p>
 
 <div align="center">
   
-![Tela de escolha do modo](https://github.com/ciceroed/MCC1_IFSC_2023_02/blob/main/Equipe_Robo_Roadsters/tela_escolha_modo.png)
+<img src="Tela de escolha do modo](https://github.com/ciceroed/MCC1_IFSC_2023_02/blob/main/Equipe_Robo_Roadsters/tela_escolha_modo.png" width="40%">
 
 </div>
+
+<br>
+
+No modo automatico, o usuário entra com a coordenada final do RoboRoadster. No modo seguidor de linha, o Roboroadster apenas segue uma linha conforme o comando do usuário e, por fim, o modo teleoperado deixa o usuário controlar o robo. O robo retorna sua posição constantemente em todos os modos. As telas de operação do modo automático, teleoperado e seguidor de linha podem ser vistas nas **figuras 5, 6** e **7**, respectivamente.
 
 <p align="center"><strong>Figura 5 - Tela de modo automatico</strong></p>
 
 <div align="center">
   
-![Tela automatico](https://github.com/ciceroed/MCC1_IFSC_2023_02/blob/main/Equipe_Robo_Roadsters/tela_automatico_app.png)
+<img src="https://github.com/ciceroed/MCC1_IFSC_2023_02/blob/main/Equipe_Robo_Roadsters/tela_automatico_app.png" width="40%">
 
 </div>
+
+<br>
+
+<p align="center"><strong>Figura 6 - Tela de modo teleoperado</strong></p>
+
+<div align="center">
+  
+<img src="https://github.com/ciceroed/MCC1_IFSC_2023_02/blob/main/Equipe_Robo_Roadsters/tela_teleoperado.png" width="40%">
+
+</div>
+
+<br>
+
+<p align="center"><strong>Figura 7 - Tela de seguidor de linha</strong></p>
+
+<div align="center">
+  
+<img src="https://github.com/ciceroed/MCC1_IFSC_2023_02/blob/main/Equipe_Robo_Roadsters/tela_seguidor.png" width="40%">
+
+</div>
+<br>
+
